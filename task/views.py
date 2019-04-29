@@ -6,8 +6,8 @@ from .models import Task
 # Create your views here.
 
 
-def home(request):
-    return HttpResponse("Welcome to simple project Dashboard")
+# def home(request):
+#     return HttpResponse("Welcome to simple project Dashboard")
 
 
 class TaskListView(ListView):
